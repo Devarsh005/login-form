@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" onsubmit="saveData();return false">
+            <div class="title">
+                Registration
+            </div>
+            <div class="input-fields">
+                <img src="user-solid.svg">
+                <input type="text" id="name" onkeyup="verifyName()" placeholder="enter a name">
+            </div>
+            <p id="usernameError"></p>
+            <div class="input-fields">
+                <img src="email.png">
+                <input type="text" id="email" onkeyup="verifyEmail()" placeholder="enter a email">
+            </div>
+            <p id="emailError"></p>
+            <div class="input-fields">
+                <img src="padlock.png">
+                <input type="password" onkeyup="verifyPassword()" id="pwd" placeholder="enter a password">
+            </div>
+            <p id="passError"></p>
+            <div class="input-fields">
+                <img src="padlock.png">
+                <input type="password" onkeyup="verifyConfirmPwd()" id="cpwd" placeholder="confirm password">
+            </div>
+            <p id="cpwderror"></p>
+            <div class="checkboxpoints">
+                <div>
+                    <input type="checkbox">i accept all terms and condition
+                </div>
+            </div>
+            <div class="button">
+                <input type="submit" value="signup">
+            </div>
+            <div class="login-signup">
+                already a member?
+                <a href="index.html">Login now</a>
+            </div>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+
+</html>
