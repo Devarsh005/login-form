@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+                <form class="form">
+                    <div class="title">
+                        Login
+                    </div>
+                    <div class="input-fields">
+                        <img src="email.png">
+                        <input type="text" id="email" onkeyup="verifyEmail()" placeholder="enter your email">
+                    </div>
+                    <p id="emailError"></p>
+                    <div class="input-fields">
+                        <img src="padlock.png">
+                        <input type="password" id="pwd" onkeyup="verifyPassword()" placeholder="enter your password">
+                    </div>
+                    <p id="pwderror"></p>
+                    <div class="checkboxpoints">
+                        <div>
+                            <input type="checkbox"> Remember Me
+                        </div>
+                        <div>
+                            <a href="#">forgot Password</a>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="button" onclick="check()" value="Login">
+                    </div>
+                
+                <div class="login-signup">
+                        not a member?
+                        <a href="signup.html" >signup now</a>
+                </div>
+            </form>
+            </div>
+</div>
+<script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body{
+    background-color: #4070f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 20px;
+}
+/* .container .forms{
+    display: flex;
+    padding: 30px;
+    height: 440px;
+    width: 200%;
+    transition: margin-left 2s ease;
+} */
+.container .form{
+    padding: 30px;
+    background-color: #ffff;
+    border-radius: 20px;
+}
+/* .container.active .forms {
+    height: 600px;
+} */
+.container .title{
+    font-size: 27px;
+    font-weight: 600;
+    /* position: relative; */
+}
+.input-fields img{
+    height: 20px;
+    width: 20px;
+    padding-top: 18px;
+}
+.input-fields{
+    position: relative;
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+
+}
+.form .input-fields input{
+    font-size: 16px;
+    padding: 0px 35px;
+    border: none;
+    width: 100%;
+    border-top: 2px solid transparent;
+}
+
+.form .checkboxpoints{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.form .button{
+   margin-top: 20px;
+}
+.form .button input{
+    color: #ffff;
+    width: 100%;
+    background-color: blue;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    height: 50px;
+}
+.font .text{
+    color: black;
+    font-size: 14px;
+}
+.form .login-signup{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 15px;
+}
+.form .login{
+    height: 440px;
+}
+.form .signup{
+    height: 600px;
+}
+/* .input-fields input::before{
+    content: url('email.png');
+} */
+/* .input-fields i{
+    
+} */
+/* .text a:active{
+    transition:margin-left 0.9 ease;
+}
+
+.forms .text a:active{
+    transition: opacity 0.9 ease;
+}
+.forms .text a:active{
+    opacity: 0;
+} */
